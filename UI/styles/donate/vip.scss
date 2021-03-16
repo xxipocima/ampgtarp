@@ -1,0 +1,29 @@
+.vip {
+  &-items {
+    height: 100%;
+  }
+  &-info {
+    color: rgb(204, 177, 82);
+    width: 100%;
+    > .button {
+      width: 80%;
+      margin: 1vh auto;
+    }
+    h3 {
+      text-align: center;
+      margin: 0;
+    }
+  }
+  &-time {
+    text-align: center;
+    font-family: "TickingTimebomb";
+    margin: 1vh auto 4vh;
+    font-size: 1.8rem;
+    color: rgb(226, 23, 23);
+    text-shadow: 0 0 5px rgb(255, 0, 0);
+  }
+  & > .button {
+    width: 15vw;
+    margin-left: 15vw;
+  }
+}

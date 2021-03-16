@@ -1,0 +1,17 @@
+.shop-desc {
+  border-top: 1px solid #fff;
+  margin-top: 3vh;
+  &-check {
+    margin-right: 1vh;
+  }
+  &-row {
+    color: #fff;
+    margin: 0.5vh;
+    margin-left: 15vw;
+  }
+  &-tittle {
+    color: rgb(204, 177, 82);
+    margin: 2vh;
+    text-align: center;
+  }
+}

@@ -1,0 +1,1 @@
+global.clothes_shop = require('../../../server_side/configs/clothes.json');

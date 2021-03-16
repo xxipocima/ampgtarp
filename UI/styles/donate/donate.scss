@@ -1,0 +1,96 @@
+.body {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  background-color: rgba(#000, 0.7);
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+.container {
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+  width: 70vw;
+  margin: auto;
+}
+
+.nav {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  &-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-item {
+    margin-left: 5vh;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      color: #fed644;
+      text-shadow: 0 0 0.5vh #fed644;
+    }
+  }
+  &-active {
+    &:after {
+      content: "";
+      display: block;
+      width: 120%;
+      height: 5vh;
+      bottom: -1.5vh;
+      left: -10%;
+      border-bottom: 2px solid #fff;
+      position: absolute;
+      background: radial-gradient(
+        ellipse at bottom,
+        rgba(#fff, 0.4),
+        transparent
+      );
+    }
+  }
+  &-balance {
+    div {
+      display: inline-block;
+      margin-right: 3vh;
+    }
+  }
+  &-coins {
+    color: #fed644;
+  }
+  &-money {
+    color: rgb(39, 180, 62);
+  }
+  &-vip {
+    color: #fed644;
+    text-shadow: 0 0 0.2vh #fed644;
+  }
+}
+.row {
+  margin: auto;
+  width: 100%;
+  display: flex;
+}
+
+.coin-icon {
+  width: 7vh;
+  height: 7vh;
+  margin-bottom: -2.5vh;
+  margin-left: -2vh;
+}
+.button {
+  margin-top: 3vh;
+  text-align: center;
+  background-color: grey;
+  padding: 1vh;
+  color: #fff;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 0 0 1vh 0 #fed644;
+    color: #fed644;
+  }
+}

@@ -1,0 +1,147 @@
+.referral{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    span{
+        color: #efdfab;
+        font-size: 16px;
+        margin: 8px 0;
+        line-height: 1.5em;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .left{
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        position: relative;
+        .playtime{
+            .time{
+                color: #ffffff;
+                margin-left: 20px;
+                display: inline-block;
+            }
+        }
+        .input{
+            position: relative;
+            width: 100%;
+            input{
+                background-color: rgba(#000000,.5);
+                width: 100%;
+                border: none;
+                font-size: 16px;
+                padding: 14px 20px;
+                color: #ffffff;
+                box-sizing: border-box;
+            }
+            svg{
+                position: absolute;
+                right: 35px;
+                left: auto;
+                top: calc(50% - 10px);
+            }
+            .but{
+                position: absolute;
+                right: 10px;
+                top: 5px;
+                display: table;
+                padding: 8px 16px;
+                text-align: center;
+                color: #ffffff;
+                background-color: #2B2E38;
+                box-sizing: border-box;
+            }
+        }
+        p{
+            color: rgba(#ffffff,.75);
+            line-height: 1.25em;
+            font-size: 14px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .error{
+            color: #ff7c7c;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    }
+    .right{
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        position: relative;
+        padding-left: 20px;
+        .gameTime{
+            font-size: 12px;
+            color: #ffd949;
+            margin-right: 9px;
+            display: inline-block;
+        }
+        .name{
+            color: #ffffff;
+            display: inline-block;
+            font-size: 16px;
+            vertical-align: middle;
+        }
+        .empty {
+            color: #ffffff;
+            font-size: 16px;
+            display: inline-block;
+        }
+        .invited{
+            span { margin-right: 1vw; }
+            margin-bottom: 30px;
+        }
+        .invites{
+            display: inline-block;
+            vertical-align: top;
+            .invite{
+                margin: 10px 0;
+            }
+        }
+        .got{
+            display: inline-block;
+            margin-left: 1vw;
+            .money{
+                img{
+                    display: inline-block;
+                }
+                span{
+                    display: inline-block;
+                    vertical-align: top;
+                    line-height: 40px;
+                    color: #37d462;
+                }
+            }
+            .but{
+                display: table;
+                padding: 10px 30px;
+                text-align: center;
+                color: #ffffff;
+                background-color: #1C1F2A;
+                box-sizing: border-box;
+                &:hover {
+                    background-color: lighten(#1C1F2A, 10%);
+                }
+            }
+        }
+    }
+    .bottom{
+        clear: both;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 5vh;
+        .circle{
+            color: #FFD949;
+            border: 3px solid #FFD949;
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+            text-align: center;
+            margin: 10px auto;
+            line-height: 25px;
+            border-radius: 50%;
+            box-sizing: border-box;
+        }
+    }
+}

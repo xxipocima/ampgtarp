@@ -1,0 +1,909 @@
+/* line 3, stdin */
+.carshowroom .container[data-v-833e02d2] {
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1250px;
+  height: 100vh; }
+
+/* line 13, stdin */
+.carshowroom .headline[data-v-833e02d2] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 125px; }
+  /* line 19, stdin */
+  .carshowroom .headline h2[data-v-833e02d2] {
+    position: relative;
+    font-size: 31px;
+    font-weight: 400;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2), -1px -1px rgba(0, 0, 0, 0.2);
+    color: #fff; }
+    /* line 25, stdin */
+    .carshowroom .headline h2[data-v-833e02d2]:after {
+      content: "";
+      display: block;
+      margin-top: 44px;
+      background-image: url("../img/carshowroom/header_line.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      width: 100%;
+      height: 3px; }
+
+/* line 39, stdin */
+.carshowroom .carroom_item[data-v-833e02d2] {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../img/carshowroom/carroom_bg.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+  height: 147px; }
+  /* line 50, stdin */
+  .carshowroom .carroom_item-top[data-v-833e02d2] {
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 17px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.07);
+    max-width: 855px;
+    width: 100%;
+    height: 36px; }
+    /* line 60, stdin */
+    .carshowroom .carroom_item-top__slide[data-v-833e02d2] {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 265px;
+      width: 100%;
+      height: 36px; }
+      /* line 67, stdin */
+      .carshowroom .carroom_item-top__slide .button[data-v-833e02d2] {
+        border: 0;
+        opacity: .25;
+        cursor: pointer;
+        display: block;
+        border-radius: 50%;
+        background: transparent url("../img/carshowroom/arrow-slide.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        transition: .5s;
+        width: 36px;
+        height: 36px; }
+        /* line 80, stdin */
+        .carshowroom .carroom_item-top__slide .button[data-v-833e02d2]:hover {
+          opacity: 1; }
+        /* line 83, stdin */
+        .carshowroom .carroom_item-top__slide .button[data-v-833e02d2]:last-child {
+          transform: scale(-1); }
+      /* line 87, stdin */
+      .carshowroom .carroom_item-top__slide p[data-v-833e02d2] {
+        font-size: 21px;
+        font-weight: 400;
+        color: #fff; }
+    /* line 93, stdin */
+    .carshowroom .carroom_item-top__price[data-v-833e02d2] {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 21px;
+      font-weight: 400;
+      color: #41c346;
+      max-width: 150px;
+      width: 100%;
+      height: 36px; }
+      /* line 103, stdin */
+      .carshowroom .carroom_item-top__price i[data-v-833e02d2] {
+        content: "";
+        display: block;
+        margin-right: 12px;
+        background-image: url("../img/carshowroom/icons/price-icon.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        width: 32px;
+        height: 32px; }
+    /* line 116, stdin */
+    .carshowroom .carroom_item-top__colors[data-v-833e02d2] {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 375px;
+      width: 100%; }
+      /* line 122, stdin */
+      .carshowroom .carroom_item-top__colors p[data-v-833e02d2] {
+        text-transform: uppercase;
+        margin-right: 12px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff; }
+      /* line 129, stdin */
+      .carshowroom .carroom_item-top__colors ul[data-v-833e02d2] {
+        display: flex;
+        align-items: center; }
+        /* line 132, stdin */
+        .carshowroom .carroom_item-top__colors ul li[data-v-833e02d2] {
+          content: "";
+          display: block;
+          cursor: pointer;
+          margin-right: 10px;
+          border-radius: 50%;
+          border: solid 2px transparent;
+          transition: .3s;
+          width: 24px;
+          height: 24px; }
+          /* line 142, stdin */
+          .carshowroom .carroom_item-top__colors ul li[data-v-833e02d2]:last-child {
+            margin-right: 0; }
+          /* line 145, stdin */
+          .carshowroom .carroom_item-top__colors ul li.active[data-v-833e02d2] {
+            border: solid 2px #fff; }
+          /* line 148, stdin */
+          .carshowroom .carroom_item-top__colors ul li.orange[data-v-833e02d2] {
+            background-color: #ed8f4a; }
+          /* line 151, stdin */
+          .carshowroom .carroom_item-top__colors ul li.green[data-v-833e02d2] {
+            background-color: #7ad573; }
+          /* line 154, stdin */
+          .carshowroom .carroom_item-top__colors ul li.blue[data-v-833e02d2] {
+            background-color: #64b4d9; }
+          /* line 157, stdin */
+          .carshowroom .carroom_item-top__colors ul li.red[data-v-833e02d2] {
+            background-color: #ef4f4f; }
+          /* line 160, stdin */
+          .carshowroom .carroom_item-top__colors ul li.yellow[data-v-833e02d2] {
+            background-color: #fae44d; }
+          /* line 163, stdin */
+          .carshowroom .carroom_item-top__colors ul li.silver[data-v-833e02d2] {
+            background-color: #dedede; }
+  /* line 170, stdin */
+  .carshowroom .carroom_item-bottom[data-v-833e02d2] {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 770px;
+    width: 100%;
+    height: 36px; }
+    /* line 179, stdin */
+    .carshowroom .carroom_item-bottom__info[data-v-833e02d2] {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 500px;
+      width: 100%;
+      height: 36px; }
+      /* line 186, stdin */
+      .carshowroom .carroom_item-bottom__info li[data-v-833e02d2] {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        height: 36px; }
+        /* line 194, stdin */
+        .carshowroom .carroom_item-bottom__info li i[data-v-833e02d2] {
+          content: "";
+          display: block;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 100%;
+          margin-right: 14px; }
+          /* line 201, stdin */
+          .carshowroom .carroom_item-bottom__info li i.speed[data-v-833e02d2] {
+            background-image: url("../img/carshowroom/icons/speedometr.png");
+            width: 27px;
+            height: 18px; }
+          /* line 206, stdin */
+          .carshowroom .carroom_item-bottom__info li i.condition[data-v-833e02d2] {
+            background-image: url("../img/carshowroom/icons/vector.png");
+            width: 21px;
+            height: 21px; }
+          /* line 211, stdin */
+          .carshowroom .carroom_item-bottom__info li i.fuel[data-v-833e02d2] {
+            background-image: url("../img/carshowroom/icons/fuel.png");
+            width: 20px;
+            height: 24px; }
+          /* line 216, stdin */
+          .carshowroom .carroom_item-bottom__info li i.wheel[data-v-833e02d2] {
+            background-image: url("../img/carshowroom/icons/wheel.png");
+            width: 24px;
+            height: 24px; }
+    /* line 224, stdin */
+    .carshowroom .carroom_item-bottom__buttons[data-v-833e02d2] {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 225px;
+      width: 100%;
+      height: 36px; }
+      /* line 231, stdin */
+      .carshowroom .carroom_item-bottom__buttons-buy[data-v-833e02d2] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #299c2d;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 18px;
+        transition: .5s;
+        font-size: 18px;
+        font-weight: 400;
+        max-width: 111px;
+        color: #fff;
+        width: 100%;
+        height: 35px; }
+        /* line 246, stdin */
+        .carshowroom .carroom_item-bottom__buttons-buy[data-v-833e02d2]:hover {
+          background-color: #248627; }
+      /* line 250, stdin */
+      .carshowroom .carroom_item-bottom__buttons-exit[data-v-833e02d2] {
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: .5s;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff; }
+        /* line 257, stdin */
+        .carshowroom .carroom_item-bottom__buttons-exit[data-v-833e02d2]:hover {
+          opacity: .7; }
+      /* line 261, stdin */
+      .carshowroom .carroom_item-bottom__buttons i[data-v-833e02d2] {
+        content: "";
+        display: block;
+        background-image: url("../img/carshowroom/icons/arrow-panel.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        width: 19px;
+        height: 13px; }
+
+/* line 274, stdin */
+.carshowroom .modal-buy[data-v-833e02d2] {
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  overflow: auto; }
+  /* line 288, stdin */
+  .carshowroom .modal-buy_content[data-v-833e02d2] {
+    margin: auto;
+    display: flex;
+    padding: 0 53px;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../img/carshowroom/modal_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    max-width: 565px;
+    color: #fff;
+    width: 100%;
+    height: 264px;
+    animation-name: animatetop;
+    animation-duration: 0.4s; }
+    /* line 306, stdin */
+    .carshowroom .modal-buy_content__header[data-v-833e02d2] {
+      display: flex;
+      position: relative;
+      align-items: center;
+      font-size: 21px;
+      font-weight: 400;
+      color: #ffd789;
+      width: 100%;
+      height: 68px; }
+      /* line 315, stdin */
+      .carshowroom .modal-buy_content__header img[data-v-833e02d2] {
+        margin-right: 18px; }
+      /* line 318, stdin */
+      .carshowroom .modal-buy_content__header .close[data-v-833e02d2] {
+        right: 0;
+        opacity: .6;
+        content: "";
+        cursor: pointer;
+        position: absolute;
+        background-image: url("../img/carshowroom/close.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        transition: .3s;
+        width: 25px;
+        height: 25px; }
+        /* line 331, stdin */
+        .carshowroom .modal-buy_content__header .close[data-v-833e02d2]:hover {
+          opacity: 1; }
+    /* line 336, stdin */
+    .carshowroom .modal-buy_content p[data-v-833e02d2] {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+      color: #ffffff;
+      max-width: 375px;
+      margin: 0 auto; }
+    /* line 345, stdin */
+    .carshowroom .modal-buy_content__buttons[data-v-833e02d2] {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 465px;
+      width: 100%;
+      height: 50px; }
+      /* line 352, stdin */
+      .carshowroom .modal-buy_content__buttons a[data-v-833e02d2] {
+        opacity: .35;
+        position: relative;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        transition: .5s;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        width: 50%;
+        height: 40px; }
+        /* line 364, stdin */
+        .carshowroom .modal-buy_content__buttons a[data-v-833e02d2]:hover {
+          opacity: 1; }
+        /* line 367, stdin */
+        .carshowroom .modal-buy_content__buttons a[data-v-833e02d2]:after {
+          left: 0;
+          right: 0;
+          top: 43px;
+          content: "";
+          margin: auto;
+          position: absolute;
+          transition: .5s;
+          width: 100%;
+          height: 2px; }
+      /* line 380, stdin */
+      .carshowroom .modal-buy_content__buttons .accept[data-v-833e02d2]:hover:after {
+        background-color: #41c346;
+        box-shadow: 0px 0px 35px 5px rgba(65, 195, 70, 0.75); }
+      /* line 386, stdin */
+      .carshowroom .modal-buy_content__buttons .cancel[data-v-833e02d2]:hover:after {
+        background-color: #dd5f55;
+        box-shadow: 0px 0px 35px 5px rgba(221, 95, 85, 0.75); }
+/* line 2, stdin */
+.ui_element {
+  display: none;
+  position: absolute;
+  width: 100vw;
+  height: 100vh; }
+
+/* line 9, stdin */
+#chat {
+  z-index: -1;
+  display: block;
+  color: white;
+  line-height: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  margin-left: 30px;
+  position: absolute;
+  top: 0;
+  margin-top: 60px; }
+  /* line 23, stdin */
+  #chat.acitve {
+    overflow-y: auto;
+    z-index: 0; }
+    /* line 26, stdin */
+    #chat.acitve::-webkit-scrollbar {
+      width: 0; }
+
+/* line 31, stdin */
+#chat .buttons .but {
+  text-shadow: none;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 2px;
+  margin-top: 3px;
+  padding: 6px 22px;
+  color: #fff;
+  text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; }
+
+/* line 42, stdin */
+#chat .buttons .but.active {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.25); }
+
+@media screen and (min-height: 1080px) {
+  /* line 48, stdin */
+  #chat {
+    font-size: 14px !important;
+    font-weight: bold; } }
+
+/* line 54, stdin */
+#chat ul#chat_messages {
+  overflow: hidden;
+  height: 250px;
+  transform: rotate(180deg);
+  line-height: 1.2em;
+  width: 37vw;
+  list-style-type: none;
+  padding-left: 5px; }
+  /* line 62, stdin */
+  #chat ul#chat_messages.active {
+    overflow-y: auto;
+    padding-left: 2px; }
+    /* line 65, stdin */
+    #chat ul#chat_messages.active::-webkit-scrollbar {
+      width: 0; }
+
+/* line 71, stdin */
+#chat ul#chat_messages > li {
+  transform: rotate(-180deg); }
+
+/* line 75, stdin */
+#chat input#chat_msg {
+  background: rgba(0, 0, 0, 0.25);
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  font-family: "Roboto", Segoe UI,Verdana,sans-serif;
+  font-size: 14px;
+  line-height: 10px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.75);
+  width: 35vw;
+  padding: 13px 13px 13px 20px; }
+
+/* line 89, stdin */
+#chat_channels li {
+  float: left;
+  border: 1px solid black;
+  list-style-type: none;
+  padding: 5px 15px;
+  margin: 5px 5px 0px 0px;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-shadow: none; }
+
+/* line 100, stdin */
+#chat_channels li#active {
+  color: #a545a5; }
+
+/* line 104, stdin */
+::-webkit-scrollbar-button {
+  background-image: url("");
+  background-repeat: no-repeat;
+  width: 5px;
+  height: 0px; }
+
+/* line 111, stdin */
+::-webkit-scrollbar-track {
+  background-color: #404249;
+  padding: 0 5px;
+  border-radius: 10px; }
+
+/* line 117, stdin */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #2b2c31; }
+
+/* line 122, stdin */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #25252a; }
+
+/* line 126, stdin */
+::-webkit-resizer {
+  background-image: url("");
+  background-repeat: no-repeat;
+  width: 5px;
+  height: 0px; }
+
+/* line 133, stdin */
+::-webkit-scrollbar {
+  width: 5px; }
+/* line 3, stdin */
+.carshowroom .container[data-v-dd2cc5c4] {
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1250px;
+  height: 100vh; }
+
+/* line 13, stdin */
+.carshowroom .headline[data-v-dd2cc5c4] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 125px; }
+  /* line 19, stdin */
+  .carshowroom .headline h2[data-v-dd2cc5c4] {
+    position: relative;
+    font-size: 31px;
+    font-weight: 400;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2), -1px -1px rgba(0, 0, 0, 0.2);
+    color: #fff; }
+    /* line 25, stdin */
+    .carshowroom .headline h2[data-v-dd2cc5c4]:after {
+      content: "";
+      display: block;
+      margin-top: 44px;
+      background-image: url("../img/carshowroom/header_line.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      width: 100%;
+      height: 3px; }
+
+/* line 39, stdin */
+.carshowroom .carroom_item[data-v-dd2cc5c4] {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../img/carshowroom/carroom_bg.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+  height: 147px; }
+  /* line 50, stdin */
+  .carshowroom .carroom_item-top[data-v-dd2cc5c4] {
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 17px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.07);
+    max-width: 855px;
+    width: 100%;
+    height: 36px; }
+    /* line 60, stdin */
+    .carshowroom .carroom_item-top__slide[data-v-dd2cc5c4] {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 265px;
+      width: 100%;
+      height: 36px; }
+      /* line 67, stdin */
+      .carshowroom .carroom_item-top__slide .button[data-v-dd2cc5c4] {
+        border: 0;
+        opacity: .25;
+        cursor: pointer;
+        display: block;
+        border-radius: 50%;
+        background: transparent url("../img/carshowroom/arrow-slide.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        transition: .5s;
+        width: 36px;
+        height: 36px; }
+        /* line 80, stdin */
+        .carshowroom .carroom_item-top__slide .button[data-v-dd2cc5c4]:hover {
+          opacity: 1; }
+        /* line 83, stdin */
+        .carshowroom .carroom_item-top__slide .button[data-v-dd2cc5c4]:last-child {
+          transform: scale(-1); }
+      /* line 87, stdin */
+      .carshowroom .carroom_item-top__slide p[data-v-dd2cc5c4] {
+        font-size: 21px;
+        font-weight: 400;
+        color: #fff; }
+    /* line 93, stdin */
+    .carshowroom .carroom_item-top__price[data-v-dd2cc5c4] {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 21px;
+      font-weight: 400;
+      color: #41c346;
+      max-width: 150px;
+      width: 100%;
+      height: 36px; }
+      /* line 103, stdin */
+      .carshowroom .carroom_item-top__price i[data-v-dd2cc5c4] {
+        content: "";
+        display: block;
+        margin-right: 12px;
+        background-image: url("../img/carshowroom/icons/price-icon.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        width: 32px;
+        height: 32px; }
+    /* line 116, stdin */
+    .carshowroom .carroom_item-top__colors[data-v-dd2cc5c4] {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 375px;
+      width: 100%; }
+      /* line 122, stdin */
+      .carshowroom .carroom_item-top__colors p[data-v-dd2cc5c4] {
+        text-transform: uppercase;
+        margin-right: 12px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff; }
+      /* line 129, stdin */
+      .carshowroom .carroom_item-top__colors ul[data-v-dd2cc5c4] {
+        display: flex;
+        align-items: center; }
+        /* line 132, stdin */
+        .carshowroom .carroom_item-top__colors ul li[data-v-dd2cc5c4] {
+          content: "";
+          display: block;
+          cursor: pointer;
+          margin-right: 10px;
+          border-radius: 50%;
+          border: solid 2px transparent;
+          transition: .3s;
+          width: 24px;
+          height: 24px; }
+          /* line 142, stdin */
+          .carshowroom .carroom_item-top__colors ul li[data-v-dd2cc5c4]:last-child {
+            margin-right: 0; }
+          /* line 145, stdin */
+          .carshowroom .carroom_item-top__colors ul li.active[data-v-dd2cc5c4] {
+            border: solid 2px #fff; }
+          /* line 148, stdin */
+          .carshowroom .carroom_item-top__colors ul li.orange[data-v-dd2cc5c4] {
+            background-color: #ed8f4a; }
+          /* line 151, stdin */
+          .carshowroom .carroom_item-top__colors ul li.green[data-v-dd2cc5c4] {
+            background-color: #7ad573; }
+          /* line 154, stdin */
+          .carshowroom .carroom_item-top__colors ul li.blue[data-v-dd2cc5c4] {
+            background-color: #64b4d9; }
+          /* line 157, stdin */
+          .carshowroom .carroom_item-top__colors ul li.red[data-v-dd2cc5c4] {
+            background-color: #ef4f4f; }
+          /* line 160, stdin */
+          .carshowroom .carroom_item-top__colors ul li.yellow[data-v-dd2cc5c4] {
+            background-color: #fae44d; }
+          /* line 163, stdin */
+          .carshowroom .carroom_item-top__colors ul li.silver[data-v-dd2cc5c4] {
+            background-color: #dedede; }
+  /* line 170, stdin */
+  .carshowroom .carroom_item-bottom[data-v-dd2cc5c4] {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 770px;
+    width: 100%;
+    height: 36px; }
+    /* line 179, stdin */
+    .carshowroom .carroom_item-bottom__info[data-v-dd2cc5c4] {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 500px;
+      width: 100%;
+      height: 36px; }
+      /* line 186, stdin */
+      .carshowroom .carroom_item-bottom__info li[data-v-dd2cc5c4] {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        height: 36px; }
+        /* line 194, stdin */
+        .carshowroom .carroom_item-bottom__info li i[data-v-dd2cc5c4] {
+          content: "";
+          display: block;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 100%;
+          margin-right: 14px; }
+          /* line 201, stdin */
+          .carshowroom .carroom_item-bottom__info li i.speed[data-v-dd2cc5c4] {
+            background-image: url("../img/carshowroom/icons/speedometr.png");
+            width: 27px;
+            height: 18px; }
+          /* line 206, stdin */
+          .carshowroom .carroom_item-bottom__info li i.condition[data-v-dd2cc5c4] {
+            background-image: url("../img/carshowroom/icons/vector.png");
+            width: 21px;
+            height: 21px; }
+          /* line 211, stdin */
+          .carshowroom .carroom_item-bottom__info li i.fuel[data-v-dd2cc5c4] {
+            background-image: url("../img/carshowroom/icons/fuel.png");
+            width: 20px;
+            height: 24px; }
+          /* line 216, stdin */
+          .carshowroom .carroom_item-bottom__info li i.wheel[data-v-dd2cc5c4] {
+            background-image: url("../img/carshowroom/icons/wheel.png");
+            width: 24px;
+            height: 24px; }
+    /* line 224, stdin */
+    .carshowroom .carroom_item-bottom__buttons[data-v-dd2cc5c4] {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 225px;
+      width: 100%;
+      height: 36px; }
+      /* line 231, stdin */
+      .carshowroom .carroom_item-bottom__buttons-buy[data-v-dd2cc5c4] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #299c2d;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 18px;
+        transition: .5s;
+        font-size: 18px;
+        font-weight: 400;
+        max-width: 111px;
+        color: #fff;
+        width: 100%;
+        height: 35px; }
+        /* line 246, stdin */
+        .carshowroom .carroom_item-bottom__buttons-buy[data-v-dd2cc5c4]:hover {
+          background-color: #248627; }
+      /* line 250, stdin */
+      .carshowroom .carroom_item-bottom__buttons-exit[data-v-dd2cc5c4] {
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: .5s;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff; }
+        /* line 257, stdin */
+        .carshowroom .carroom_item-bottom__buttons-exit[data-v-dd2cc5c4]:hover {
+          opacity: .7; }
+      /* line 261, stdin */
+      .carshowroom .carroom_item-bottom__buttons i[data-v-dd2cc5c4] {
+        content: "";
+        display: block;
+        background-image: url("../img/carshowroom/icons/arrow-panel.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        width: 19px;
+        height: 13px; }
+
+/* line 274, stdin */
+.carshowroom .modal-buy[data-v-dd2cc5c4] {
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  overflow: auto; }
+  /* line 288, stdin */
+  .carshowroom .modal-buy_content[data-v-dd2cc5c4] {
+    margin: auto;
+    display: flex;
+    padding: 0 53px;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../img/carshowroom/modal_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    max-width: 565px;
+    color: #fff;
+    width: 100%;
+    height: 264px;
+    animation-name: animatetop;
+    animation-duration: 0.4s; }
+    /* line 306, stdin */
+    .carshowroom .modal-buy_content__header[data-v-dd2cc5c4] {
+      display: flex;
+      position: relative;
+      align-items: center;
+      font-size: 21px;
+      font-weight: 400;
+      color: #ffd789;
+      width: 100%;
+      height: 68px; }
+      /* line 315, stdin */
+      .carshowroom .modal-buy_content__header img[data-v-dd2cc5c4] {
+        margin-right: 18px; }
+      /* line 318, stdin */
+      .carshowroom .modal-buy_content__header .close[data-v-dd2cc5c4] {
+        right: 0;
+        opacity: .6;
+        content: "";
+        cursor: pointer;
+        position: absolute;
+        background-image: url("../img/carshowroom/close.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        transition: .3s;
+        width: 25px;
+        height: 25px; }
+        /* line 331, stdin */
+        .carshowroom .modal-buy_content__header .close[data-v-dd2cc5c4]:hover {
+          opacity: 1; }
+    /* line 336, stdin */
+    .carshowroom .modal-buy_content p[data-v-dd2cc5c4] {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+      color: #ffffff;
+      max-width: 375px;
+      margin: 0 auto; }
+    /* line 345, stdin */
+    .carshowroom .modal-buy_content__buttons[data-v-dd2cc5c4] {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 465px;
+      width: 100%;
+      height: 50px; }
+      /* line 352, stdin */
+      .carshowroom .modal-buy_content__buttons a[data-v-dd2cc5c4] {
+        opacity: .35;
+        position: relative;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        transition: .5s;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        width: 50%;
+        height: 40px; }
+        /* line 364, stdin */
+        .carshowroom .modal-buy_content__buttons a[data-v-dd2cc5c4]:hover {
+          opacity: 1; }
+        /* line 367, stdin */
+        .carshowroom .modal-buy_content__buttons a[data-v-dd2cc5c4]:after {
+          left: 0;
+          right: 0;
+          top: 43px;
+          content: "";
+          margin: auto;
+          position: absolute;
+          transition: .5s;
+          width: 100%;
+          height: 2px; }
+      /* line 380, stdin */
+      .carshowroom .modal-buy_content__buttons .accept[data-v-dd2cc5c4]:hover:after {
+        background-color: #41c346;
+        box-shadow: 0px 0px 35px 5px rgba(65, 195, 70, 0.75); }
+      /* line 386, stdin */
+      .carshowroom .modal-buy_content__buttons .cancel[data-v-dd2cc5c4]:hover:after {
+        background-color: #dd5f55;
+        box-shadow: 0px 0px 35px 5px rgba(221, 95, 85, 0.75); }

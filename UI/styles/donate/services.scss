@@ -1,0 +1,10 @@
+.service {
+  &-items {
+    height: 100%;
+    justify-content: space-around;
+  }
+  .button {
+    width: 15vw;
+    margin-left: 15vw;
+  }
+}

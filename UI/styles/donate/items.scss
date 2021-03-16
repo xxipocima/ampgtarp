@@ -1,0 +1,61 @@
+.shop {
+  &-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    &-block {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  &-item {
+    //background-image: url(img/donate/bgitem.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 12vw;
+    height: 35vh;
+    margin-right: 2vh;
+    padding: 1.5vh;
+    box-sizing: border-box;
+    color: #fff;
+    transition: all 0.3;
+    cursor: pointer;
+    div {
+      margin-bottom: 0.5vh;
+    }
+    &-name {
+      color: #fed644;
+      text-shadow: 0 0 0.2vh #fed644;
+    }
+    &-bonus {
+      color: #fed644;
+      font-size: .7rem;
+      text-shadow: 0 0 0.2vh #fed644;
+    }
+    &-type {
+      font-size: .9rem;
+    }
+    &-desc {
+      color: grey;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+    &-price {
+      margin-top: -1.5vh;
+    }
+    &-img {
+      width: 100%;
+      margin-bottom: 2vh;
+    }
+    &-active {
+      border: 1px solid #fff;
+      box-shadow: 0 0 0.7vh 0 #fff;
+    }
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 1vh 1vh 2vh 1px #000;
+    }
+  }
+}

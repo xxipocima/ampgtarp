@@ -1,0 +1,98 @@
+{
+    "vehs": [	       
+        {
+            "model": "chino",
+            "pos": {
+                "x": 1409.9061279296875,
+                "y": -1513.719482421875,
+                "z": 58.751426696777344
+            },
+            "heading": 117.09803009033203,
+            "color": [
+                [
+                    232,
+                    192,
+                    32
+                ],
+                [
+                    232,
+                    192,
+                    32
+                ]
+            ],
+            "rank": 0
+        },
+        {
+            "model": "moonbeam2",
+            "pos": {
+                "x": 1394.2894287109375,
+                "y": -1529.861572265625,
+                "z": 56.914405822753906
+            },
+            "heading": 119.8144760131836,
+            "color": [
+                [
+                    232,
+                    192,
+                    32
+                ],
+                [
+                    232,
+                    192,
+                    32
+                ]
+            ],
+            "rank": 0
+        }        
+    ],
+    "posSpawn":{
+        "x": 461.5541076660156,
+        "y": -1509.3248291015625,
+        "z": 28.127416610717773
+    },
+    "posWarehouse": {
+        "x": 109.31092834472656,
+        "y": -1948.0728759765625,
+        "z": 0
+    },
+    "rank": [
+        {
+            "name": "Novato"
+        },
+        {
+            "name": "Formado"
+        },
+		{
+            "name": "Fuerte"
+        },
+	    {
+            "name": "Armado"
+        },
+		{
+            "name": "Latino"
+        },
+	    {
+            "name": "Bandido"
+        },
+        {
+            "name": "Hermano"
+        },
+        {
+            "name": "Asesino",
+			"invite": true,
+			"uninvite": true
+        },
+        {
+            "name": "Suplente",
+		    "invite": true,
+			"uninvite": true,
+			"FRang": true
+        },
+        {
+            "name": "Padre",
+			"invite": true,
+			"uninvite": true,
+			"FRang": true
+        }
+    ]
+}
