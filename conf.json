@@ -10,7 +10,7 @@
 	"broadcast-threads": 8,
 	"encryption": true,
 	"disallow-multiple-connections-per-ip": true,
-	"url": "a-mprp.ru",
+	"url": "2.57.186.7",
 	"language": "ru",
 	"voice-chat": true
 }
