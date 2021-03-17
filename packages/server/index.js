@@ -1,3 +1,4 @@
+console.log('try to load server assets - - - - >');
 let fs = global.require('fs');
 let path = global.require('path');
 let domain = require('domain');
