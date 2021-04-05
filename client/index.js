@@ -39,3 +39,4 @@ mp.events.add({
 		} 
 	}
 });
+require('./clientEntry.js');
