@@ -2,6 +2,7 @@ require('./noclip/noclip.js');
 require('./admin/admin.js');
 // require('./admin/animator.js');
 require('./admin/permision.js');
+require('./mapsLua/index.js');
 require('./camera/camera.js');
 require('./testpdd/testpdd.js');
 require('./parking/parking.js');

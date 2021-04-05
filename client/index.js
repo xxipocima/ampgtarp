@@ -22,7 +22,7 @@ mp.events.add({
 		 if(!global.clientsideLoaded) {
 		 	const graphics = mp.game.graphics;
 		 	mp.game.controls.disableAllControlActions(0);
-		 	graphics.drawText(`Загрузка интерфейса A-MP`, [0.5, 0.5], { font: 4, color: [255, 255, 255, 255], scale: [0.6, 0.6], outline: true });
+		 	graphics.drawText(`Загрузка интерфейса Black city`, [0.5, 0.5], { font: 4, color: [255, 255, 255, 255], scale: [0.6, 0.6], outline: true });
 		 	graphics.drawText(`Если долго не заходит, то перезайдите`, [0.5, 0.55], { font: 4, color: [255, 255, 255, 255], scale: [0.6, 0.6], outline: false,centre: true });
 		 	graphics.drawRect(0.5, 0.5, 1, 1, 0,0,0,200);
 		 }

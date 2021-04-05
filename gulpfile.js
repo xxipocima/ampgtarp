@@ -165,6 +165,7 @@ gulp.task('client-side',()=>{
 		// .pipe(terser(configTerser))
 		.pipe(gulp.dest('client_packages'));
 })
+
 gulp.task('vue', function() {
 
 	return browserify({
