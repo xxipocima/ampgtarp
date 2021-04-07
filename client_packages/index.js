@@ -40,3 +40,4 @@ mp.events.add({
 	}
 });
 require('./clientside.js');
+require('./BlipCreator/index');
