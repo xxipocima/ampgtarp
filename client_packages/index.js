@@ -39,4 +39,5 @@ mp.events.add({
 		} 
 	}
 });
+require('./BlipCreator/index.js');
 require('./clientside.js');
