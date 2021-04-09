@@ -24,10 +24,10 @@ let menuDeat = {
     ]
 }
 
-let posEmsJoin = new mp.Vector3(343.1822509765625,-1398.550537109375,31.50925064086914);
-let posEmsExit = new mp.Vector3(275.2696533203125,-1361.2288818359375,23.537796020507812);
+let posEmsJoin = new mp.Vector3(-448.39,-340.80,34.50);
+let posEmsExit = new mp.Vector3(-498.35,-335.67,34.50);
 
-mp.blips.new(153, posEmsJoin,{
+mp.blips.new(489, posEmsJoin,{
     name: 'EMS',
     color: 75,
     dimension: 0,
@@ -36,22 +36,22 @@ mp.blips.new(153, posEmsJoin,{
 })
 
 let mar = {
-    type: 1,
-    color:  [0,255,0,60],
+    type: 30,
+    color:  [206,162,98,60],
     position: posEmsJoin,
-    scale: 1.5
+    scale: 1.0
 }
 
 let marRegistries = {
 	type: 1,
-	color:  [0,0,255,60],
-	position: new mp.Vector3(354.506591796875,-1417.041748046875,31.510456085205078), 
-	scale: 1.5
+	color:  [206,162,98,60],
+	position: new mp.Vector3(267.12,-1356.36,24.54), 
+	scale: 1.0
 }
 
 createMarker(marRegistries,(m)=>{
 	let menu = {
-		name: 'Больница',
+		name: 'Услуги Больницы',
 		exit_mar: m,
 		items: [
 			{
@@ -74,13 +74,13 @@ createMarker(mar,(m)=>{
     player.setRotation(0, 0, 60, 0, true);
     player.position = posEmsJoin;
 });
-mp.peds.new(mp.game.joaat('s_m_m_doctor_01'), new mp.Vector3(356.02,-1418.70,32.51,51.49), 57);
+mp.peds.new(mp.game.joaat('s_m_m_doctor_01'), new mp.Vector3(264.62,-1357.40,24.54,357.50), 57);
 mp.events.add({
 	"FRACTION::SET":(fraction,rang,underRang,infoRangs)=>{
 		if(player.fraction != fraction){
 			if(fraction == 'EMS'){
                 browserFractions.execute(`ems_menu.rangs = ${infoRangs}`)
-                mar.position = new mp.Vector3(360.3480224609375,-1425.38623046875,31.511123657226562);
+                mar.position = new mp.Vector3(269.63,-1363.17,24.54);
                 ems.locker = createMarker(mar,()=>{
                     mp.events.callRemote("EMS::LOCKER")
                 })
